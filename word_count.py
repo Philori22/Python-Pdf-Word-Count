@@ -55,6 +55,10 @@ def main():
             startPage = max(int(sys.argv[2]) - 1, 0)  # Pages are 0-indexed
             endPage = min(int(sys.argv[3]), numPages)
 
+            if startPage >= endPage or startPage < 0 or endPage > numPages:
+                print("Invalid page range. Ensure start page is less than end page and within document range.")
+                exit(1)
+                
         # Check if the specified file exists or not
         try:
             if os.path.exists(pdfFile):
