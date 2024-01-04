@@ -28,4 +28,4 @@ python3 word_count.py path/to/pdf 15 134
 * The page numbers are 1-indexed, just like in most documents, it looks at the index of the page in the pdf document, not the page number on the document.
 
 # Acknowledgements
-This script is an updated version of the original work found at [[link](https://github.com/adityashrm21/Pdf-Word-Count/tree/master)https://github.com/adityashrm21/Pdf-Word-Count/tree/master](adityashrm21's Pdf-Word-Count).
+This script is an updated version of the original work found at [[https://github.com/adityashrm21/Pdf-Word-Count/tree/master](adityashrm21's Pdf-Word-Count).
